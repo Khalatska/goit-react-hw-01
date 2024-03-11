@@ -1,8 +1,8 @@
 .table {
   border: 2px solid black;
-  width: 420px;
   margin: 0 auto;
   margin-top: 60px;
+  width: 420px;
   border-collapse: collapse;
 }
 
@@ -26,4 +26,8 @@
 }
 .tableItem td {
   border: 1px solid black;
+}
+.table th,
+.table td {
+  width: 33%;
 }
