@@ -11,8 +11,8 @@ const FriendListItem = ({ friend }) => {
       {friend.isOnline ? (
         <p
           className={clsx({
-            [css.green]: isOnlineFriend,
-            [css.red]: !isOnlineFriend,
+            [css.online]: isOnlineFriend,
+            [css.offline]: !isOnlineFriend,
           })}
         >
           Online
