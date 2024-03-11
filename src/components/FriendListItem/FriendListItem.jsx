@@ -1,5 +1,4 @@
 import css from "./FriendListItem.module.css";
-import clsx from "clsx";
 
 const FriendListItem = ({ friend }) => {
   return (
