@@ -2,7 +2,7 @@ import css from "./FriendListItem.module.css";
 
 const FriendListItem = ({ friend }) => {
   return (
-    <li>
+    <li className={css.friendsItem}>
       <img src={friend.avatar} alt="Avatar" width="48" />
       <p>{friend.name}</p>
       {friend.isOnline ? (
